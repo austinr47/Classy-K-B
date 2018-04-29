@@ -1,0 +1,99 @@
+[
+  {
+    "category": "landing-slider",
+    "details": [
+      {
+        "subCategory": "kitchen",
+        "displayName": "",
+        "description": "",
+        "notes": "",
+        "name": "kitchen - 11 Colina doors in Antique White_preview",
+        "photo": "https://www.dropbox.com/s/4dro8ko9auv6fvw/kitchen%20-%2011%20Colina%20doors%20in%20Antique%20White_preview.jpeg?raw=1"
+      },
+      {
+        "subCategory": "bath",
+        "displayName": "",
+        "description": "",
+        "notes": "",
+        "name": "bath - Milano Vanity in Gunstock Walnut_preview",
+        "photo": "https://www.dropbox.com/s/potjl3hmelxnxer/bath%20-%20Milano%20Vanity%20in%20Gunstock%20Walnut_preview.jpeg?raw=1"
+      },
+      {
+        "subCategory": "kitchen",
+        "displayName": "",
+        "description": "",
+        "notes": "",
+        "name": "kitchen - Chocolate and Cream Glazed Rome Cabinets_preview",
+        "photo": "https://www.dropbox.com/s/vw4j79v1eapik6y/kitchen%20-%20Chocolate%20and%20Cream%20Glazed%20Rome%20Cabinets_preview.jpeg?raw=1"
+      },
+      {
+        "subCategory": "bath",
+        "displayName": "",
+        "description": "",
+        "notes": "",
+        "name": "bath - 049A1075.Sweetwater Full Bath_preview",
+        "photo": "https://www.dropbox.com/s/kn5y5400ue6dlw6/bath%20-%20049A1075.Sweetwater%20Full%20Bath_preview.jpeg?raw=1"
+      },
+      {
+        "subCategory": "kitchen",
+        "displayName": "",
+        "description": "",
+        "notes": "",
+        "name": "kitchen - Photo Mar 12, 9 47 56 AM copy_preview",
+        "photo": "https://www.dropbox.com/s/rtbomuoirq1esx5/kitchen%20-%20Photo%20Mar%2012%2C%209%2047%2056%20AM%20copy_preview.jpeg?raw=1"
+      }
+    ]
+  }, {
+    "category": "landing-products",
+    "details": [
+      {
+        "subCategory": "Countertops",
+        "displayName": "Countertops",
+        "description": "",
+        "notes": "",
+        "name": "Cambria-Brittanica",
+        "photo": "https://www.dropbox.com/s/fwqcxsaa36rq3m3/Cambria-Brittanica-%281%29.jpg?raw=1"
+      },
+      {
+        "subCategory": "Kitchen",
+        "displayName": "Kitchen",
+        "description": "",
+        "notes": "",
+        "name": "Black and White Verona",
+        "photo": "https://www.dropbox.com/s/yn8opdrg9hhhg06/Landing-kitchen-%281%29.jpg?raw=1"
+      },
+      {
+        "subCategory": "Bath",
+        "displayName": "Bath",
+        "description": "",
+        "notes": "",
+        "name": "Classic-Tile-and-Glass-Bathroom",
+        "photo": "https://www.dropbox.com/s/km1mv00swlpa2im/1-Classic-Tile-and-Glass-Bathroom-resized.jpg?raw=1"
+      },
+      {
+        "subCategory": "Doors",
+        "displayName": "Doors",
+        "description": "",
+        "notes": "",
+        "name": "Bergamo Door",
+        "photo": "https://www.dropbox.com/s/9gy2vt3jrd0f7h0/26-The-Highland-resized.jpg?raw=1"
+      },
+      {
+        "subCategory": "Our Process",
+        "displayName": "Our Process",
+        "description": "",
+        "notes": "",
+        "name": "Warehouse",
+        "photo": "https://www.dropbox.com/s/j6z2zm5vwynxjha/Landing-Process-%281%29.jpg?raw=1"
+      },
+      {
+        "subCategory": "Showroom",
+        "displayName": "Showroom",
+        "description": "",
+        "notes": "",
+        "name": "Showroom",
+        "photo": "https://www.dropbox.com/s/anscz4jg8sis97i/chandler-showroom.jpg?raw=1"
+      }
+    ]
+  }
+]

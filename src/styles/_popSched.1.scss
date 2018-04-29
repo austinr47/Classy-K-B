@@ -1,0 +1,138 @@
+// transitioning to sched content
+
+.popSched-main {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(46, 46, 46, 0.719);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  overflow: scroll;
+  color: white;
+
+  > span {
+    text-align: right;
+    width: 80%;
+  }
+
+  .close-sent {
+    cursor: pointer;
+    width: 30%;
+  }
+  
+  .popSched-content {
+    width: 310px;
+    height: 470px;
+    background-color: rgba(29, 29, 29, 0.911);
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    .sent {
+      color: white;
+    }
+
+    .popSched-sending {
+      margin: auto;
+      width: 100px;
+      height: 100px;
+    }
+    
+   span {
+      color: white;
+      // font-size: 22px;
+    }
+    
+    .popSched-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-top: 19px;
+      
+      > input {
+        font-size: 18px;
+        width: 90%;
+        height: 35px;
+        margin: 7px 0;
+        border-radius: 6px;
+        font-family: sans-serif;
+        border: none;
+      }
+    }
+
+    .popSched-location {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      > input {
+        width: 40%;
+        height: 35px;
+        margin: 7px 0 10px 5%;
+        border-radius: 6px;
+        font-family: sans-serif;
+        border: none;
+        font-size: 18px;
+      }
+
+      > select {
+        width: 40%;
+        height: 35px;
+        margin: 7px 5% 10px 0;
+        border-radius: 6px;
+      }
+    }
+
+    .popSched-comments {
+      width: 100%;
+      
+      > textarea {
+        font-family: sans-serif;
+        width: 90%;
+        height: 70px;
+        margin: 7px 0;
+        border-radius: 6px;
+        font-size: 13px;
+      }
+    }
+
+    .popSched-submit {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      color: white;
+
+      .popSched-submit-active {
+        margin: 15px 0 0 0;
+        font-size: 24px;
+        padding: 4px;
+        width: 80%;
+        background-color: #AD4747;
+        color: white;
+        border-radius: 5px;
+      }
+
+      .popSched-submit-disabled {
+        margin: 15px 0 0 0;
+        font-size: 24px;
+        padding: 4px;
+        width: 80%;
+        background-color: rgba(194, 124, 124, 0.877);
+        color: rgba(187, 187, 187, 0.568);
+        border-radius: 5px;
+      }
+    }
+  }
+}

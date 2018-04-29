@@ -1,0 +1,98 @@
+[
+  {
+    "category": "COUNTERTOPS",
+    "info": [
+      "What COUNTERTOP is right for you?",
+      "Choose from a selection of granite, marble or quartz to find the perfect countertop material for your new project.", 
+      "There are many things to consider when choosing a countertop and in order to choose the one that is right for you and your lifestyle, it is important to know about all of your options.",
+      "At Classy Kitchen and Bath, we can help you find the perfect countertop material for your kitchen and bathroom. Shop now!"
+    ],
+    "categories": [
+      {
+        "name": "Granite",
+        "description1": "Granite has always been one of the most popular choices for countertops because it is durable, beautiful and timeless. If you’re searching for countertop material for your new bathroom or kitchen, granite could be the perfect fit for you! It’s natural beauty, color variation and durability make it an excellent option for any kitchen or bathroom.",
+        "description2": "Granite is a natural stone found within Earth’s crust. Therefore, no granite slab will ever contain the exact patterns, veins, swirls and specks as another. Granite comes in wide variety of colors and styles - there are endless possibilities to choose from and each slab is unique. Granite is best chosen in person as each slab of granite will vary.",
+        "description3": "Granite is especially perfect for bathroom and kitchens because it is non-porous stone which makes it easy to clean and less susceptible to residual bacteria, mold and mildew. Granite is also highly heat, scratch and stain resistant - perfect for high traffic areas.",
+        "description4": "Granite varies in price and is differentiated by levels. Levels ranging from 1 - 5 help to determine the cost and availability of a particular granite stone. For more information on cost, granite levels and how best to pick out your granite slab, Classy Kitchen and Bath is here to help!",
+        "photo": "https://www.dropbox.com/s/5c3rbdcmndihci4/Glazed-Afternoon-Showers-and-Antique-White-in-Bergamo-%281%29.jpg?raw=1"
+      }, {
+        "name": "Quartz",
+        "description1": "Quartz is a beautiful and low maintenance engineered stone surface that is perfect for bathrooms, kitchens and flooring. Quartz contains 93 percent natural quartz and 7 percent other raw materials - such as binding resin, to make a material that is much harder, more durable and easier to care for than any other countertop material. These characteristics, combined with the stunning natural beauty of quartz, make it a great pick for homeowners.",
+        "description2": "Quartz is a very popular choice for homeowners. The benefits of quartz include:",
+        "description3": "A variety of style and color options. Because quartz can be engineered in a variety of ways, there is an endless variety of options to choose from. Whether you’re searching for traditional, classic or modern style quartz - you’ll be sure to find the perfect fit.",
+        "description4": "Stain Resistant: Quartz is a non-porous surface that is highly resistant to staining. Worry less about spills and “Oops!”",
+        "description5": "Hard/Durable: Engineered with binding resins, quartz is more durable and harder than many other countertop materials. Quartz is highly resistant to cracking and chipping.",
+        "description6": "Natural Luster: Engineered quartz contains natural glass and stone. When light bounces of the surface of quartz material, it’s a stunning visual!",
+        "description7": "Texture: Quartz is engineered with different textures - choose from a variety of options to choose the perfect one for you. ",
+        "description8": "These qualities combine to make quartz an ideal material pick for bathrooms and kitchens. For a beautiful, low maintenance and durable countertop or backsplash option - quartz is the perfect pick! ",
+        "photo": "https://www.dropbox.com/s/fwqcxsaa36rq3m3/Cambria-Brittanica-%281%29.jpg?raw=1"
+      }, {
+        "name": "Marble",
+        "description1": "Marble has been a design favorite for centuries and is trending right now! It’s timeless, beautiful and is a great addition for any home, kitchen or bathroom. ",
+        "description2": "As with any natural stone, there are both pros and cons to consider when choosing marble for your home:",
+        "description3": "Cons: Marble is a porous, high-maintenance surface. As a naturally soft stone, marble is susceptible to staining agents (wine, juice, oils, etc.) and must be professionally treated with a sealant approximately every six months. Marble can also be easily scratched and acidic liquids may etch the stone’s surface leaving a dull, whitish mark where the acid has slightly eaten away at the surface. Many homeowners who choose marble, recognize that marble must be frequently maintained and/or they prefer the “loved” look that marble has after use. ",
+        "description4": "Pros: The most obvious benefit of marble is it’s beauty. This natural stone features soft and feminine veins throughout its surface and no two marble slabs will ever be the same. Marble is also heat-resistant (although we recommend always using a heating pad under hot pans) and will stay cool and crisp throughout the entire day (great for baking!).",
+        "description5": "If you are considering marble countertops in your home, discuss with a Classy Kitchen and Bath professional to see if marble is the best fit for you.",
+        "photo": "https://www.dropbox.com/s/36u3nfqbqz3m1pt/White-Butler%27s-Pantry-with-Marble-Countertop.jpg?raw=1"
+      }
+    ],
+    "details": [
+      {
+        "subCategory": "Granite",
+        "displayName": "placeholderName1",
+        "description": "",
+        "notes": "",
+        "name": "",
+        "photo": "https://www.dropbox.com/s/q86bd7yg9b7foqf/White%20Verona%20cabinets%20with%20Giallo%20Imperial%20granite.jpg?raw=1"
+      },
+      {
+        "subCategory": "Quartz",
+        "displayName": "placeholderName2",
+        "description": "",
+        "notes": "",
+        "name": "",
+        "photo": "https://www.dropbox.com/s/q86bd7yg9b7foqf/White%20Verona%20cabinets%20with%20Giallo%20Imperial%20granite.jpg?raw=1"
+      },
+      {
+        "subCategory": "Ceramic Tile",
+        "displayName": "placeholderName3",
+        "description": "",
+        "notes": "",
+        "name": "",
+        "photo": "https://www.dropbox.com/s/q86bd7yg9b7foqf/White%20Verona%20cabinets%20with%20Giallo%20Imperial%20granite.jpg?raw=1"
+      },
+      {
+        "subCategory": "Laminates",
+        "displayName": "placeholderName4",
+        "description": "",
+        "notes": "",
+        "name": "",
+        "photo": "https://www.dropbox.com/s/q86bd7yg9b7foqf/White%20Verona%20cabinets%20with%20Giallo%20Imperial%20granite.jpg?raw=1"
+      },
+      {
+        "subCategory": "Wood or Butchers Block",
+        "displayName": "placeholderName5",
+        "description": "",
+        "notes": "",
+        "name": "",
+        "photo": "https://www.dropbox.com/s/q86bd7yg9b7foqf/White%20Verona%20cabinets%20with%20Giallo%20Imperial%20granite.jpg?raw=1"
+      },
+      {
+        "subCategory": "Marble",
+        "displayName": "placeholderName6",
+        "description": "",
+        "notes": "",
+        "name": "",
+        "photo": "https://www.dropbox.com/s/q86bd7yg9b7foqf/White%20Verona%20cabinets%20with%20Giallo%20Imperial%20granite.jpg?raw=1"
+      },
+      {
+        "subCategory": "Stainless Steel",
+        "displayName": "placeholderName7",
+        "description": "",
+        "notes": "",
+        "name": "",
+        "photo": "https://www.dropbox.com/s/q86bd7yg9b7foqf/White%20Verona%20cabinets%20with%20Giallo%20Imperial%20granite.jpg?raw=1"
+      }
+    ]
+  }
+]

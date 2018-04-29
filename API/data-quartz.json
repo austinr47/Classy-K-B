@@ -1,0 +1,43 @@
+[
+  {
+    "category": "QUARTZ",
+    "info": [
+      "What COUNTERTOP is right for you?",
+      "When it comes to kitchen and bath remodeling in Arizona, Classy Kitchen & Bath® offers the top of the line countertops to transform your home.",
+      "There are many things to consider when choosing a countertop and in order to choose the one that is right for you and your lifestyle, it is important to know about all of your options.",
+      "The more information you know, the better off you will be in making the right choice."
+    ],
+    "details": [
+      {
+        "displayName": "Caesarstone",
+        "photo": "https://www.dropbox.com/s/0l2endh8j15kt8h/Caesarstone.jpg?raw=1",
+        "description": "Caesarstone combines beauty with outstanding performance, enabling you to bring your design imagination to life."
+      },
+      {
+        "displayName": "Cambria",
+        "photo": "https://www.dropbox.com/s/wml9gi9wl7x8zph/Cambria.jpg?raw=1",
+        "description": "Inspired by the majestic landscapes of Wales, every Cambria® design is a masterwork of unsurpassed natural beauty."
+      },
+      {
+        "displayName": "Corian",
+        "photo": "https://www.dropbox.com/s/0onhnk0460tl0eh/Corian.jpg?raw=1",
+        "description": "Corian® Solid Surface material and Corian® quartz surfaces are the result of a scientific quest to create solid-surface material for residential and commercial designs of surpassing beauty."
+      },
+      {
+        "displayName": "Silestone",
+        "photo": "https://www.dropbox.com/s/wtscbtj1unrm5dq/Silestone%201.jpg?raw=1",
+        "description": "Silestone Natural Quartz is a surface material with outstanding properties created for kitchen and bath design applications."
+      },
+      {
+        "displayName": "Vadara",
+        "photo": "https://www.dropbox.com/s/dp5g85wzxeszf6w/Vadara.jpg?raw=1",
+        "description": "Vadara is pure, natural quartz, one of the hardest and most common minerals on Earth."
+      },
+      {
+        "displayName": "Wilsonart",
+        "photo": "https://www.dropbox.com/s/aokgbt71dql2ps3/Wilsonart.jpg?raw=1",
+        "description": "Wilsonart® Quartz is a stylish, sleek and strong surface with performance features that make this one of the most popular surface materials on the market today."
+      }
+    ]
+  }
+]

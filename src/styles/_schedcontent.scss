@@ -1,0 +1,183 @@
+.schedContent-main {
+  margin: 20px 0;
+
+  .close-sent {
+    cursor: pointer;
+    width: 30%;
+  }
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(114, 114, 114, 0.911);
+    font-style: italic;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(114, 114, 114, 0.911);
+    font-style: italic;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: rgba(114, 114, 114, 0.911);
+    font-style: italic;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: rgba(114, 114, 114, 0.911);
+    font-style: italic;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  
+  .schedContent-content {
+    width: 315px;
+    height: 460px;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    padding: 0 0 15px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border: 0.5px rgba(0, 0, 0, 0.253) solid;
+    box-shadow: 2px 2px 5px 0px #888888;
+
+    h4 {
+      padding: 0 10px;
+    }
+    
+    > span {
+      color: white;
+      font-size: 15px;
+      background-color: #776967;
+      width: 100%;
+      padding: 7px 0;
+    }
+    
+    .schedContent-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-top: 5px;
+
+      .required {
+        border: 1px solid red;
+      }
+      
+      > input {
+        font-size: 18px;
+        width: 90%;
+        height: 35px;
+        margin: 6px 0;
+        border-radius: 4px;
+        font-family: sans-serif;
+        border: 1px rgb(100, 100, 100) solid;
+        color: rgb(0, 0, 0);
+      }
+    }
+
+    .schedContent-location {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      .required {
+        border: 1px solid red !important;
+      }
+
+      > input {
+        width: 40%;
+        height: 35px;
+        margin: 6px 0 10px 5%;
+        border-radius: 6px;
+        font-family: sans-serif;
+        border: 1px rgb(100, 100, 100) solid;
+        font-size: 18px;
+      }
+
+      .select {
+        border: 1px rgb(100, 100, 100) solid;
+        width: 40%;
+        height: 35px;
+        margin: 6px 5% 10px 0;
+        border-radius: 6px;
+        color: rgba(136, 136, 136, 0.76);
+        font-style: italic;
+        font-size: 12px;
+      }
+
+      .required-state {
+        border: 1px rgb(255, 0, 0) solid;
+        width: 40%;
+        height: 35px;
+        margin: 6px 5% 10px 0;
+        border-radius: 6px;
+        color: rgba(136, 136, 136, 0.76);
+        font-style: italic;
+        font-size: 12px;
+      }
+    }
+
+    .schedContent-comments {
+      width: 100%;
+      
+      > textarea {
+        font-family: sans-serif;
+        width: 90%;
+        height: 70px;
+        margin: 6px 0;
+        border-radius: 6px;
+        font-size: 13px;
+        border: 1px rgb(100, 100, 100) solid;
+      }
+    }
+
+    .schedContent-submit-active {
+      width: 100%;
+      color: white;
+      
+      > button {
+        margin: 15px 0 0 0;
+        font-size: 23px;
+        padding: 4px;
+        width: 82%;
+        background-color: #AD4747;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      > button:hover {
+        box-shadow: 0.5px 0.5px 3px 0.5px black;
+      }
+    }
+
+    .schedContent-submit-disabled {
+      width: 100%;
+      color: white;
+      
+      > button {
+        margin: 12px 0 0 0;
+        font-size: 22px;
+        padding: 4px;
+        width: 82%;
+        background-color: rgba(185, 93, 93, 0.548);
+        color: white;
+        border-radius: 5px;
+        cursor: not-allowed;
+      }
+    }
+
+    .schedContent-sending {
+      margin: auto;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
