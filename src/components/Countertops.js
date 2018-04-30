@@ -27,7 +27,7 @@ class Countertops extends Component {
 
   componentDidMount() {
     window.scrollTo(0, 0)   
-    axios.get(`/countertops/`).then(response => {
+    axios.get(`/api/countertops/`).then(response => {
       this.setState({
         granite: response.data.categories[0],
         quartz: response.data.categories[1],
