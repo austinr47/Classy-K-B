@@ -34,7 +34,7 @@ class Header extends Component {
           <span>
             480-731-1236
           </span>
-          <span><NavLink to='/showrooms' className='link'>Visit a Showroom</NavLink></span>
+          <span><NavLink to='/our-process' className='link'>Visit a Showroom</NavLink></span>
           <span onClick={() => this.showMenu()}>
             <i className="menu-color fas fa-2x fa-bars"></i>
           </span>
@@ -59,7 +59,7 @@ class Header extends Component {
             <NavLink className='link' to='/our-process'><span>
               &nbsp;Our Process
             </span></NavLink>
-            <NavLink className='link' to='/showroom'><span>
+            <NavLink className='link' to='/our-process'><span>
               &nbsp;Showroom
             </span></NavLink>
             <NavLink className='link' to='/appointment'><span>
