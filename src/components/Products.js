@@ -6,8 +6,8 @@ import { NavLink } from 'react-router-dom'
 import PopSchedule from './PopSchedule'
 import SchedContent from './SchedContent'
 import ShowDetails from './ShowDetails'
-// import Images from './Images'
-// import image from '../assets/1-Bamboo-Textured-Kitchen-testing.jpg'
+import Images from './Images'
+import image from '../assets/Classy-K&B-image-placeholder.jpg'
 
 
 class Products extends Component {
@@ -20,9 +20,11 @@ class Products extends Component {
       details: [],
       pictDetails: false,
     }
+
     this.showSched=this.showSched.bind(this)
     this.getData=this.getData.bind(this)
     this.showDetail=this.showDetail.bind(this)
+
   }
 
   componentDidMount() {
@@ -74,23 +76,30 @@ class Products extends Component {
       
       if(this.props.match.params.section === 'kitchens'){
         return <div key={item.displayName} onClick={() => this.showDetail(index)}>
-                <img alt={item.name} src={item.photo} />
-                {/* <Images srcPreload={image} srcLoaded={item.photo} /> */}
+                {/* <img alt={item.name} src={item.photo} /> */}
+                <Images srcPreload={image} srcLoaded={item.photo} name={item.displayName} />
               </div>
       
       }  else if(this.props.match.params.section === 'baths'){
-        return <div key={item.displayName} onClick={() => this.showDetail(index)}><img alt={item.name} src={item.photo} /></div>
+        return <div key={item.displayName} onClick={() => this.showDetail(index)}>
+                  {/* <img alt={item.name} src={item.photo} /> */}
+                  <Images srcPreload={image} srcLoaded={item.photo} name={item.name} />
+                </div>
       
       }  else if(this.props.match.params.section === 'doors'){
         return <div key={item.displayName} onClick={() => this.showDetail(index)}>
-                <img alt={item.name} src={item.photo} />
+                {/* <img alt={item.name} src={item.photo} /> */}
+                <Images srcPreload={image} srcLoaded={item.photo} name={item.name} />
                 <span>{item.displayName}</span>
                 {/* <img id='picture-hidden' alt={item.name} src={item.DF} /> */}
                 <img id='picture-hidden' alt={item.name} src={item.Italy} />
               </div>
       } else if(this.props.match.params.section === 'quartz'){
         return <div id='quartz-picts' key={item.displayName}>
-                <a href={item.link} target="_blank" rel="noopener noreferrer"><img alt={item.name} src={item.photo} /></a>
+                <a href={item.link} target="_blank" rel="noopener noreferrer">
+                  {/* <img alt={item.name} src={item.photo} /> */}
+                  <Images srcPreload={image} srcLoaded={item.photo} name={item.name} />
+                </a>
                 <span id='quartz-name'>{item.displayName}</span>
                 <span>{item.description}</span>
                 <a href={item.link} target="_blank" rel="noopener noreferrer">View more from our vendor!</a>

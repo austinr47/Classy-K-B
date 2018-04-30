@@ -125,7 +125,7 @@ class Countertops extends Component {
                     <li>{this.state.quartz.description7}</li>
                   </ul>
                   <p id='mobile-p'>&nbsp; &nbsp; {this.state.quartz.description8}</p>
-                  <p style={link}><NavLink to={`/quartz`}>View Our Quartz Products!</NavLink></p>
+                  <p id='mobile-p' style={link}><NavLink to={`/quartz`}>View Our Quartz Products!</NavLink></p>
                 </div>
                 <div id='desktop-p' className='counter-name'>
                   <p>{this.state.quartz.description2}</p>
