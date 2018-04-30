@@ -96,9 +96,6 @@ class Appointment extends Component {
     return (
       <div className='appointment-main'>
         <Header />
-        {/* <iframe src="https://www.cambriausa.com/v6/Syndication/Designs" width="100%" height="800px" frameborder="0"></iframe> */}
-        {/* <iframe src="https://www.cambriausa.com/syndicated-content/inspiration-gallery/" width="100%" height="800px" frameborder="0"></iframe> */}
-        {/* <iframe src="https://www.cambriausa.com/v6/Syndication/Edges" width="100% " height="800px" frameborder="0"></iframe> */}
         {!this.state.sent &&
           <div className='content'>
             <div className='header'>

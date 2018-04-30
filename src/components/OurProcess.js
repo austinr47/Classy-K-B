@@ -118,7 +118,6 @@ export default class OurProcess extends Component {
                 <p>&nbsp; &nbsp; Closed Sunday</p>
               </div>
               <div className='google-map'>
-                {/* <img alt='process' src='https://www.dropbox.com/s/mzmpzvljytt1wh8/049A8385.Man-at-skill-saw-great.jpg?raw=1'/> */}
                 <ChandlerMapWithAMarker
                   googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmVFI7hRjYlQ37A3rbd1eDOsOLw23LWE0&v=3.exp&libraries=geometry,drawing,places"
                   loadingElement={<div style={{ height: `70px` }} />}
@@ -139,7 +138,6 @@ export default class OurProcess extends Component {
                 <p>&nbsp; &nbsp; Closed Sunday</p>
               </div>
               <div className='google-map'>
-                {/* <img alt='process' src='https://www.dropbox.com/s/mzmpzvljytt1wh8/049A8385.Man-at-skill-saw-great.jpg?raw=1'/> */}
                 <ScottsdaleMapWithAMarker
                   googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmVFI7hRjYlQ37A3rbd1eDOsOLw23LWE0&v=3.exp&libraries=geometry,drawing,places"
                   loadingElement={<div style={{ height: `70px` }} />}

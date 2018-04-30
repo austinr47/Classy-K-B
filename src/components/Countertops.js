@@ -4,7 +4,6 @@ import Footer from './Footer'
 import axios from 'axios'
 import { NavLink } from 'react-router-dom'
 import PopSchedule from './PopSchedule'
-// import SlideShow from 'react-image-show';
 import SchedContent from './SchedContent'
 
 
@@ -47,17 +46,6 @@ class Countertops extends Component {
   }
 
   render() {
-    // let countertops = () => {
-    //     return this.state.categories.map((item, index) => {
-    //     // let category = this.props.match.params.section === 'countertops' ? 'countertops-types' : this.props.match.params.section
-    //     return <div key={item.name} className='counter-name'>
-    //               <div><NavLink to={`/countertops-types/${item.name}`}>
-    //                 <img alt={item.name} src={item.photo} /></NavLink>
-    //               </div>
-    //               <h2>{item.name}</h2>
-    //             </div>
-    //   })
-    // }
 
     let link = {'width': '100%', }
 
@@ -87,14 +75,11 @@ class Countertops extends Component {
           <div className='samples'>
             <h2>{this.state.category}</h2>
               <div id='countertop-picts'>
-                {/* {countertops()} */}
                 <h2>{this.state.granite.name}</h2>
                 <div className='counter-name'>
-                  {/* <div><a href='http://www.countertops.com' target="_blank" rel="noopener noreferrer"> */}
                   <div><NavLink to={'/countertops'}>
                     <img alt={this.state.granite.name} src={this.state.granite.photo} />
                     </NavLink>
-                    {/* </a> */}
                   </div>
                   <p id='parag'>&nbsp; &nbsp; {this.state.granite.description1}</p>
                   <p id='mobile-p'>&nbsp; &nbsp; {this.state.granite.description2}</p>
@@ -168,68 +153,5 @@ class Countertops extends Component {
     );
   }
 }
-
-//     return (
-//       <div className='countertops-main'>
-//         {this.state.showSched &&
-//           <PopSchedule hideSched={() => this.setState({showSched: false})}/>
-//         }
-//         <Header /> 
-//         {/* <div className='desktop-title'>
-//           <h1>What COUNTERTOP is right for you?</h1>
-//         </div> */}
-//         <div className='countertops-content'>
-//           {/* <div className='countertops-main-img'> */}
-//             {/* <img alt='main' src={pict7}/> */}
-//             {/* <SlideShow 
-//               images={this.state.pict}
-//               width="100%"
-//               imagesWidth="800px"
-//               imagesHeight="450px"
-//               imagesHeightMobile="56vw"
-//               thumbnailsWidth="920px"
-//               thumbnailsHeight="12vw"
-//               indicators='true'
-//               fixedImagesHeight
-//             /> */}
-//           {/* </div> */}
-//           <div className='countertops-button'>
-//             <span onClick={this.showSched}>
-//               Start Your FREE CONSULTATION
-//             </span>
-//           </div>
-//           <div className='countertops-types'>
-//             <h3>What COUNTERTOP is right for you?</h3>
-//             <p>&nbsp; &nbsp; When it comes to kitchen and bath remodeling in Arizona, Classy Kitchen & Bath® offers the top of the line countertops to transform your home.</p>
-//             <p>&nbsp; &nbsp; There are many things to consider when choosing a countertop and in order to choose the one that is right for you and your lifestyle, it is important to know about all of your options. </p>
-//             <p>&nbsp; &nbsp; The more information you know, the better off you will be in making the right choice.</p>
-//             <div className='countertops-sched'>
-//               <SchedContent />
-//             </div>
-//           </div>
-//           <div className='countertops-samples'>
-//             <h2>COUNTERTOPS</h2>
-//             <div>
-//               {countertops()}
-//               <div>
-//               <NavLink to='/countertops-types'><img alt='Doors' src={this.state.pict[0]} /></NavLink>
-//                 Granite
-//               </div>
-//               <div>
-//               <NavLink to='/countertops-types'><img alt='Doors' src={this.state.pict[1]} /></NavLink>
-//                 Marble
-//               </div>
-//               <div>
-//               <NavLink to='/countertops-types'><img alt='Doors' src={this.state.pict[2]} /></NavLink>
-//                 Quartz
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//         <Footer />  
-//       </div>
-//     );
-//   }
-// }
 
 export default Countertops

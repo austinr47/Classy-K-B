@@ -76,28 +76,23 @@ class Products extends Component {
       
       if(this.props.match.params.section === 'kitchens'){
         return <div key={item.displayName} onClick={() => this.showDetail(index)}>
-                {/* <img alt={item.name} src={item.photo} /> */}
                 <Images srcPreload={image} srcLoaded={item.photo} name={item.displayName} />
               </div>
       
       }  else if(this.props.match.params.section === 'baths'){
         return <div key={item.displayName} onClick={() => this.showDetail(index)}>
-                  {/* <img alt={item.name} src={item.photo} /> */}
                   <Images srcPreload={image} srcLoaded={item.photo} name={item.name} />
                 </div>
       
       }  else if(this.props.match.params.section === 'doors'){
         return <div key={item.displayName} onClick={() => this.showDetail(index)}>
-                {/* <img alt={item.name} src={item.photo} /> */}
                 <Images srcPreload={image} srcLoaded={item.photo} name={item.name} />
                 <span>{item.displayName}</span>
-                {/* <img id='picture-hidden' alt={item.name} src={item.DF} /> */}
                 <img id='picture-hidden' alt={item.name} src={item.Italy} />
               </div>
       } else if(this.props.match.params.section === 'quartz'){
         return <div id='quartz-picts' key={item.displayName}>
                 <a href={item.link} target="_blank" rel="noopener noreferrer">
-                  {/* <img alt={item.name} src={item.photo} /> */}
                   <Images srcPreload={image} srcLoaded={item.photo} name={item.name} />
                 </a>
                 <span id='quartz-name'>{item.displayName}</span>
@@ -136,10 +131,6 @@ class Products extends Component {
               <div id={doorCSS}>
                 {picts}
               </div>
-            {/* <div>
-              <span>&lt; Prev</span>
-              <span onClick={this.next}>Next &gt;</span>
-            </div> */}
           </div>
         </div>
         <Footer />  

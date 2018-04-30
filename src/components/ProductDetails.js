@@ -3,7 +3,6 @@ import Header from './Header'
 import Footer from './Footer'
 import PopSchedule from './PopSchedule'
 import { NavLink } from 'react-router-dom'
-// import pict1 from '../assets/countertops/Granite/asset 2.jpeg'
 import SchedContent from './SchedContent'
 
 class ProductDetails extends Component {

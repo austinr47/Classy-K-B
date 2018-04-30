@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-// import ReactLoading from 'react-loading'
 import SchedContent from './SchedContent'
-// var Recaptcha = require('react-recaptcha')
 
 class PopSchedule extends Component {
   constructor() {

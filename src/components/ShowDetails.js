@@ -81,7 +81,6 @@ export default class ShowDetails extends Component {
                   <span className='other-picts'>
                     <span className='item-name'>{this.state.name[this.state.index]}</span>
                     <img id='pictures-italy' src={this.state.italy[this.state.index]} alt='alt1'/>
-                    {/* <img id='pictures-df' src={this.state.df[this.state.index]} alt='alt1'/> */}
                   </span>
                 </span>
       } else return <img id='pictures' src={this.state.picts[this.state.index]} alt='alt2'/>
