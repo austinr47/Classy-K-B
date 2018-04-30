@@ -1,4 +1,3 @@
-const propAPI = require('../../API/data.json')
 const propKitchenAPI = require('../../API/data-kitchens.json')
 const propBathAPI = require('../../API/data-baths.json')
 const propDoorAPI = require('../../API/data-doors.json')
