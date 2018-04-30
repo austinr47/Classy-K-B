@@ -11,32 +11,38 @@
       {
         "displayName": "Caesarstone",
         "photo": "https://www.dropbox.com/s/0l2endh8j15kt8h/Caesarstone.jpg?raw=1",
-        "description": "Caesarstone combines beauty with outstanding performance, enabling you to bring your design imagination to life."
+        "description": "Caesarstone combines beauty with outstanding performance, enabling you to bring your design imagination to life.",
+        "link": "http://www.caesarstoneus.com/pro-site/media-kit/default/"
       },
       {
         "displayName": "Cambria",
         "photo": "https://www.dropbox.com/s/wml9gi9wl7x8zph/Cambria.jpg?raw=1",
-        "description": "Inspired by the majestic landscapes of Wales, every Cambria® design is a masterwork of unsurpassed natural beauty."
+        "description": "Inspired by the majestic landscapes of Wales, every Cambria® design is a masterwork of unsurpassed natural beauty.",
+        "link": "https://www.cambriausa.com/syndicated-content/inspiration-gallery/"
       },
       {
         "displayName": "Corian",
         "photo": "https://www.dropbox.com/s/0onhnk0460tl0eh/Corian.jpg?raw=1",
-        "description": "Corian® Solid Surface material and Corian® quartz surfaces are the result of a scientific quest to create solid-surface material for residential and commercial designs of surpassing beauty."
+        "description": "Corian® Solid Surface material and Corian® quartz surfaces are the result of a scientific quest to create solid-surface material for residential and commercial designs of surpassing beauty.",
+        "link": "http://microsites-corian.azureedge.net/?template=distributors&retailer=classyclosets"
       },
       {
         "displayName": "Silestone",
         "photo": "https://www.dropbox.com/s/wtscbtj1unrm5dq/Silestone%201.jpg?raw=1",
-        "description": "Silestone Natural Quartz is a surface material with outstanding properties created for kitchen and bath design applications."
+        "description": "Silestone Natural Quartz is a surface material with outstanding properties created for kitchen and bath design applications.",
+        "link": "https://www.silestoneusa.com/gallery/"
       },
       {
         "displayName": "Vadara",
         "photo": "https://www.dropbox.com/s/dp5g85wzxeszf6w/Vadara.jpg?raw=1",
-        "description": "Vadara is pure, natural quartz, one of the hardest and most common minerals on Earth."
+        "description": "Vadara is pure, natural quartz, one of the hardest and most common minerals on Earth.",
+        "link": "http://www.vadaraquartz.com/"
       },
       {
         "displayName": "Wilsonart",
         "photo": "https://www.dropbox.com/s/aokgbt71dql2ps3/Wilsonart.jpg?raw=1",
-        "description": "Wilsonart® Quartz is a stylish, sleek and strong surface with performance features that make this one of the most popular surface materials on the market today."
+        "description": "Wilsonart® Quartz is a stylish, sleek and strong surface with performance features that make this one of the most popular surface materials on the market today.",
+        "link": "https://www.wilsonart.com/quartz/design-library"
       }
     ]
   }

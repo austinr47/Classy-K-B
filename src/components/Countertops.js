@@ -59,6 +59,8 @@ class Countertops extends Component {
     //   })
     // }
 
+    let link = {'width': '100%', }
+
     return (
       <div className='countertops-main'>
         {this.state.showSched &&
@@ -88,8 +90,11 @@ class Countertops extends Component {
                 {/* {countertops()} */}
                 <h2>{this.state.granite.name}</h2>
                 <div className='counter-name'>
-                  <div><NavLink to={`/countertops-types/${this.state.granite.name}`}>
-                    <img alt={this.state.granite.name} src={this.state.granite.photo} /></NavLink>
+                  {/* <div><a href='http://www.countertops.com' target="_blank" rel="noopener noreferrer"> */}
+                  <div><NavLink to={'/countertops'}>
+                    <img alt={this.state.granite.name} src={this.state.granite.photo} />
+                    </NavLink>
+                    {/* </a> */}
                   </div>
                   <p id='parag'>&nbsp; &nbsp; {this.state.granite.description1}</p>
                   <p id='mobile-p'>&nbsp; &nbsp; {this.state.granite.description2}</p>
@@ -120,6 +125,7 @@ class Countertops extends Component {
                     <li>{this.state.quartz.description7}</li>
                   </ul>
                   <p id='mobile-p'>&nbsp; &nbsp; {this.state.quartz.description8}</p>
+                  <p style={link}><NavLink to={`/quartz`}>View Our Quartz Products!</NavLink></p>
                 </div>
                 <div id='desktop-p' className='counter-name'>
                   <p>{this.state.quartz.description2}</p>
@@ -139,7 +145,7 @@ class Countertops extends Component {
               <div id='countertop-picts'>
                 <h2>{this.state.marble.name}</h2>
                 <div className='counter-name'>
-                  <div><NavLink to={`/quartz`}>
+                  <div><NavLink to={`/countertops`}>
                     <img alt={this.state.marble.name} src={this.state.marble.photo} /></NavLink>
                   </div>
                   <p id='parag'>&nbsp; &nbsp; {this.state.marble.description1}</p>

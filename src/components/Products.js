@@ -90,9 +90,10 @@ class Products extends Component {
               </div>
       } else if(this.props.match.params.section === 'quartz'){
         return <div id='quartz-picts' key={item.displayName}>
-                <img alt={item.name} src={item.photo} />
+                <a href={item.link} target="_blank" rel="noopener noreferrer"><img alt={item.name} src={item.photo} /></a>
                 <span id='quartz-name'>{item.displayName}</span>
                 <span>{item.description}</span>
+                <a href={item.link} target="_blank" rel="noopener noreferrer">View more from our vendor!</a>
               </div>
       } else return <div key={item.displayName}><NavLink to={`/${category}/${item.displayName}`}><img alt={item.name} src={item.photo} /></NavLink>{item.name}</div>
     })
