@@ -36,7 +36,7 @@ class Products extends Component {
   }
 
   getData(pathname) {
-    axios.get(`/${pathname}/`).then(response => {
+    axios.get(`/api/${pathname}/`).then(response => {
       this.setState({
         info: response.data.info,
         details: response.data.details,

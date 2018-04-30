@@ -12,12 +12,12 @@ app.use( express.static( `${__dirname}/../build` ) );
 
 app.use(bodyParser.json());
 
-app.get('/landing', pictCtrl.landing)
-app.get('/countertops/', pictCtrl.countertops)
-app.get('/doors/', pictCtrl.doors)
-app.get('/kitchens/', pictCtrl.kitchens)
-app.get('/baths/', pictCtrl.baths)
-app.get('/quartz/', pictCtrl.quartz)
+app.get('/api/landing', pictCtrl.landing)
+app.get('/api/countertops/', pictCtrl.countertops)
+app.get('/api/doors/', pictCtrl.doors)
+app.get('/api/kitchens/', pictCtrl.kitchens)
+app.get('/api/baths/', pictCtrl.baths)
+app.get('/api/quartz/', pictCtrl.quartz)
 
 app.post('/api/send', mailCtrl.mail)
 app.post('/api/send-appointment', appointmentCtrl.mail)
