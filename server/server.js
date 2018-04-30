@@ -8,6 +8,8 @@ const axios = require('axios')
 
 const app = express();
 
+app.use( express.static( `${__dirname}/../build` ) );
+
 app.use(bodyParser.json());
 
 app.get('/landing', pictCtrl.landing)
@@ -23,6 +25,11 @@ app.post('/api/send-appointment', appointmentCtrl.mail)
 // app.get('/pict', (req, res) => {
 //   res.send(process.env.REACT_APP_URL)
 // })
+
+const path = require('path')
+app.get('*', (req, res)=>{
+  res.sendFile(path.join(__dirname, '../build/index.html'));
+})
 
 const PORT = process.env.SERVER_PORT || 3035;
 app.listen(PORT, () => {
