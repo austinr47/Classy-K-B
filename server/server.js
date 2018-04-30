@@ -1,10 +1,10 @@
-require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const pictCtrl = require('./controllers/pictCtrl')
 const mailCtrl = require('./controllers/mailCtrl')
 const appointmentCtrl = require('./controllers/appointmentCtrl')
 const axios = require('axios')
+require('dotenv').config();
 
 const app = express();
 
