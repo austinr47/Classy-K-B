@@ -12,7 +12,8 @@ import pict6 from '../assets/homepage/Merano and Bergamo Cabinetry in White (1)_
 import pict2 from '../assets/homepage/Scottsdale Granite Vanity_preview.jpg'
 import pict3 from '../assets/homepage/White with Bella Terra Kitchen_preview.jpg'
 import Images from './Images'
-import image from '../assets/Classy-K&B-image-placeholder.jpg'
+// import image from '../assets/Classy-K&B-image-placeholder.jpg'
+import image from '../assets/Spinner-1.1s-139px.gif'
 
 class Landing extends Component {
   constructor() {

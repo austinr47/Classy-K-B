@@ -7,7 +7,8 @@ import PopSchedule from './PopSchedule'
 import SchedContent from './SchedContent'
 import ShowDetails from './ShowDetails'
 import Images from './Images'
-import image from '../assets/Classy-K&B-image-placeholder.jpg'
+// import image from '../assets/Classy-K&B-image-placeholder.jpg'
+import image from '../assets/Spinner-1.1s-139px.gif'
 
 
 class Products extends Component {
