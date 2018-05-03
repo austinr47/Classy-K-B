@@ -23,17 +23,22 @@ class Header extends Component {
       <div className='header-main'>
         <div className='header-logo-social'>
           <NavLink to='/'><img src={logo} alt='logo'/></NavLink>
+          <div className='desktop-number'>
+          <a href="tel:+4807311236">
+            480-731-1236
+          </a>
           <div className='header-social'>
-            <a href='https://www.facebook.com/ClassyClosetsUS'><i className="social fab fa-2x fa-facebook-square"></i></a>
+            <a href='https://www.facebook.com/classykitchenandbath/'><i className="social fab fa-2x fa-facebook-square"></i></a>
             <a href='http://youtube.com/classyclosets/'><i className="social fab fa-2x fa-youtube"></i></a>
             <a href='http://www.instagram.com/classyclosetsus'><i className="social fab fa-2x fa-instagram"></i></a>
             <a href='https://twitter.com/ClassyClosetsUS'><i className="social fab fa-2x fa-twitter"></i></a>
           </div>
+          </div>
         </div>
         <div className='mobile-menu'>
-          <span>
+          <a href="tel:+4807311236">
             480-731-1236
-          </span>
+          </a>
           <span><NavLink to='/our-process' className='link'>Visit a Showroom</NavLink></span>
           <span onClick={() => this.showMenu()}>
             <i className="menu-color fas fa-2x fa-bars"></i>
@@ -59,7 +64,7 @@ class Header extends Component {
             <NavLink className='link' to='/our-process'><span>
               &nbsp;Our Process
             </span></NavLink>
-            <NavLink className='link' to='/our-process'><span>
+            <NavLink className='link' to='/showroom'><span>
               &nbsp;Showroom
             </span></NavLink>
             <NavLink className='link' to='/appointment'><span>

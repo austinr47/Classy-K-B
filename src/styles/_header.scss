@@ -10,6 +10,23 @@
   background-color: #fff;
   margin-bottom: -2px;
 
+  .desktop-number {
+    display: flex;
+    // flex-direction: column;
+    // color: #A8A375;
+    color: rgba(132, 23, 47, 0.815);
+
+    >a {
+      display: none;
+      font-size: 25px;
+      text-decoration: unset;
+      cursor: pointer;
+      // width: 100%;
+      padding-top: 2px;
+      color: rgba(132, 23, 47, 0.815);
+    }
+  }
+
   @keyframes slide { 
     0%   {right: -180px;}
     100% {right: 0px;}
@@ -73,10 +90,13 @@
     align-items: flex-end;
     padding: 0 10px;
     
-    > span {
+    > a, span {
       margin-top: 7px;
       color: #A8A375;
       cursor: pointer;
+
+      // font-size: 25px;
+      text-decoration: unset;
     }
 
     .menu-color {
@@ -101,6 +121,12 @@
     top: 0px;
     z-index: 50;
     border-bottom: unset;
+
+    .desktop-number {
+      >a {
+        display: flex;
+      }
+    }
 
     .header-logo-social {
       display: flex;

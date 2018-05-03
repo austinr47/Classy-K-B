@@ -6,9 +6,9 @@ import { NavLink } from 'react-router-dom'
 import PopSchedule from './PopSchedule'
 import SchedContent from './SchedContent'
 import ShowDetails from './ShowDetails'
-import Images from './Images'
 // import image from '../assets/Classy-K&B-image-placeholder.jpg'
 import image from '../assets/Spinner-1.1s-139px.gif'
+import Images from './Images'
 
 
 class Products extends Component {
@@ -67,7 +67,7 @@ class Products extends Component {
     let info = () => {
       let arr = []
       for(let i = 1; i < this.state.info.length; i++) {
-        arr.push(<p key={i}> &nbsp; &nbsp; {this.state.info[i]}</p>)
+        arr.push(<p key={i}> {this.state.info[i]}</p>)
       }
       return arr
     }

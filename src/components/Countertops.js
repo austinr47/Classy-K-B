@@ -47,8 +47,6 @@ class Countertops extends Component {
 
   render() {
 
-    let link = {'width': '100%', }
-
     return (
       <div className='countertops-main'>
         {this.state.showSched &&
@@ -64,9 +62,9 @@ class Countertops extends Component {
             </div>
             <div className='types'>
               <h3>What COUNTERTOP is right for you?</h3>
-              <p>&nbsp; &nbsp; When it comes to kitchen and bath remodeling in Arizona, Classy Kitchen & Bath® offers the top of the line countertops to transform your home.</p>
-              <p>&nbsp; &nbsp; There are many things to consider when choosing a countertop and in order to choose the one that is right for you and your lifestyle, it is important to know about all of your options. </p>
-              <p>&nbsp; &nbsp; The more information you know, the better off you will be in making the right choice.</p>
+              <p>When it comes to kitchen and bath remodeling in Arizona, Classy Kitchen & Bath® offers the top of the line countertops to transform your home.</p>
+              <p>There are many things to consider when choosing a countertop and in order to choose the one that is right for you and your lifestyle, it is important to know about all of your options. </p>
+              <p>The more information you know, the better off you will be in making the right choice.</p>
               <div className='sched'>
                 <SchedContent />
               </div>
@@ -86,11 +84,11 @@ class Countertops extends Component {
                   <p id='mobile-p'>&nbsp; &nbsp; {this.state.granite.description3}</p>
                   <p id='mobile-p'>&nbsp; &nbsp; {this.state.granite.description4}</p>
                 </div>
-                <div id='desktop-p' className='counter-name'>
+                {/* <div id='desktop-p' className='counter-name'>
                   <p>&nbsp; &nbsp; {this.state.granite.description2}</p>
                   <p>&nbsp; &nbsp; {this.state.granite.description3}</p>
                   <p>&nbsp; &nbsp; {this.state.granite.description4}</p>
-                </div>
+                </div> */}
               </div>
 
 
@@ -110,9 +108,9 @@ class Countertops extends Component {
                     <li>{this.state.quartz.description7}</li>
                   </ul>
                   <p id='mobile-p'>&nbsp; &nbsp; {this.state.quartz.description8}</p>
-                  <p id='mobile-p' style={link}><NavLink to={`/quartz`}>View Our Quartz Products!</NavLink></p>
+                  <button id='quartz-button'><NavLink className='link' to={`/quartz`}>View Our Quartz Products!</NavLink></button>
                 </div>
-                <div id='desktop-p' className='counter-name'>
+                {/* <div id='desktop-p' className='counter-name'>
                   <p>{this.state.quartz.description2}</p>
                   <ul>
                     <li>{this.state.quartz.description3}</li>
@@ -123,7 +121,7 @@ class Countertops extends Component {
                   </ul>
                   <p>&nbsp; &nbsp; {this.state.quartz.description8}</p>
                   <p><NavLink to={`/quartz`}>View Our Quartz Products!</NavLink></p>
-                </div>
+                </div> */}
               </div>
 
 
@@ -139,12 +137,12 @@ class Countertops extends Component {
                   <p id='mobile-p'>&nbsp; &nbsp; {this.state.marble.description4}</p>
                   <p id='mobile-p'>&nbsp; &nbsp; {this.state.marble.description5}</p>
                 </div>
-                <div id='desktop-p' className='counter-name'>
+                {/* <div id='desktop-p' className='counter-name'>
                   <p>&nbsp; &nbsp; {this.state.marble.description2}</p>
                   <p>&nbsp; &nbsp; {this.state.marble.description3}</p>
                   <p>&nbsp; &nbsp; {this.state.marble.description4}</p>
                   <p>&nbsp; &nbsp; {this.state.marble.description5}</p>
-                </div>
+                </div> */}
               </div>
           </div>
         </div>

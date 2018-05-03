@@ -34,7 +34,7 @@ class Menu extends Component {
             <NavLink className='menu-link' to='/countertops'><span onClick={this.hideMenu}>Countertops</span></NavLink>
             <NavLink className='menu-link' to='/doors'><span onClick={this.hideMenu}>Doors</span></NavLink>
             <NavLink className='menu-link' to='/our-process'><span onClick={this.hideMenu}>Our Process</span></NavLink>
-            <NavLink className='menu-link' to='/our-process'><span onClick={this.hideMenu}> Showroom</span></NavLink>
+            <NavLink className='menu-link' to='/showroom'><span onClick={this.hideMenu}> Showroom</span></NavLink>
             <NavLink className='menu-link' to='/appointment'><span onClick={this.hideMenu}> Make An Appointment</span></NavLink>
           </div>
         </div>

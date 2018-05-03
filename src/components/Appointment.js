@@ -100,8 +100,8 @@ class Appointment extends Component {
           <div className='content'>
             <div className='header'>
               <h3>Make an Appointment</h3>
-              <p>Request a free estimate from an expert design professional. For more information about our organization solutions, contact us by completing the form below.</p>
-              <p>We will contact you to discuss your needs and confirm a time that is convenient for you to have a design professional meet with you for a FREE, in-home custom estimate. </p>
+              <p>Request a free estimate from an expert Classy Kitchen and Bath design professional. For more information about our kitchen and bath cabinet solutions, contact us by completing the form below.</p>
+              <p>We will contact you as soon as possible to discuss your needs and confirm a time that is convenient for you to have a design professional meet with you for a free in-home custom estimate.</p>
             </div>
             <form>
               <p>* Required</p>
