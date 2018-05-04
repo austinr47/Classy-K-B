@@ -2,6 +2,7 @@
 
   #quartz-picts {
     max-height: unset;
+    font-size: 12px;
   }
 
   #quartz-name {
@@ -97,6 +98,19 @@
       align-content: center;
       width: 90%;
 
+      #button {
+        text-decoration: unset;
+        background-image: linear-gradient(to bottom, #b16e80, #9a5767, #834150, #6c2c39, #551624);
+        padding: 4px 8px;
+        border-radius: 6px;
+        margin: 10px 0 20px;
+        -webkit-box-shadow: 7px 7px 32px -10px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 7px 32px -10px rgba(0,0,0,0.75);
+        box-shadow: 7px 7px 32px -10px rgba(0,0,0,0.75);
+        color: #EACD79;
+        cursor: pointer;
+        width: unset;
+      }
 
       a {
         width: 100%;
@@ -175,6 +189,7 @@
   .products-main {
     #quartz-picts {
       max-height: unset;
+      font-size: 15px;
     }
 
     .products-content {
@@ -219,6 +234,7 @@
     #quartz-picts {
       max-height: unset;
       justify-content: flex-start;
+      font-size: 12px;
     }
 
     .desktop-title {

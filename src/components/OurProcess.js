@@ -26,21 +26,26 @@ export default class OurProcess extends Component {
 
   componentDidMount() {
     // window.scrollTo(0, 0)
-    // console.log(1, this.props.match.path)
+    console.log(1, this.props.match.path)
     this.scroll(this.props.match.path)
   }
 
   componentWillReceiveProps(nextProps) {
-    // console.log(2, nextProps.match.path)
+    console.log(2, nextProps.match.path)
     if(this.props.match.path === nextProps.match.path) {
+      // window.scrollTo(0, 0)
       return null
-    } else this.scroll(nextProps.match.path)
+    // } else return goToAnchor('scroll')
+    } else return this.scroll(nextProps.match.path)
   }
 
   scroll(value) {
-    // console.log(3, value)
+    console.log(3, value)
+    // if(value === '/showroom#scroll') {
+    //   return null
+    // } else 
     if(value === '/showroom') {
-      goToAnchor('scroll')
+      goToAnchor('visit')
     } else window.scrollTo(0, 0)
   }
 
@@ -99,7 +104,7 @@ export default class OurProcess extends Component {
                   <p>We commit to a specific installation date(s) and have a 95% on time delivery record. Installation dates are confirmed via email text, or phone about 5 days prior to your installation. </p>
                   <h5><i>Do you manufacture your products?</i></h5>
                   <p>Yes, Classy Closets is a direct manufacturer and have full control of the quality of our product from start to finish. Unlike many others in our industry, we do not source pre-fabricated parts from large producers thousands of miles away. By controlling our manufacturing we also have great flexibility in design and can react quickly should any adjustments be needed. If you have any other questions concerning our process or what it’s like to work with Classy Kitchen and Bath, reach out to one of our professional designers today! We look forward to working with you.</p>
-              <div id='scroll' className='process-picts'>
+              <div id='scroll1' className='process-picts'>
                 <img id='first-pict' alt='process' src='https://www.dropbox.com/s/mzmpzvljytt1wh8/049A8385.Man-at-skill-saw-great.jpg?raw=1'/>
               </div>
             </div>
@@ -121,10 +126,11 @@ export default class OurProcess extends Component {
                   <h5><i>What happens when my project is ready to be installed?</i></h5>
                   <p>We commit to a specific installation date(s) and have a 95% on time delivery record. Installation dates are confirmed via email text, or phone about 5 days prior to your installation. </p>
                   <h5><i>Do you manufacture your products?</i></h5>
-                  <p id='scroll'>Yes, Classy Closets is a direct manufacturer and have full control of the quality of our product from start to finish. Unlike many others in our industry, we do not source pre-fabricated parts from large producers thousands of miles away. By controlling our manufacturing we also have great flexibility in design and can react quickly should any adjustments be needed. If you have any other questions concerning our process or what it’s like to work with Classy Kitchen and Bath, reach out to one of our professional designers today! We look forward to working with you.</p>
+                  <p id='scroll1'>Yes, Classy Closets is a direct manufacturer and have full control of the quality of our product from start to finish. Unlike many others in our industry, we do not source pre-fabricated parts from large producers thousands of miles away. By controlling our manufacturing we also have great flexibility in design and can react quickly should any adjustments be needed. If you have any other questions concerning our process or what it’s like to work with Classy Kitchen and Bath, reach out to one of our professional designers today! We look forward to working with you.</p>
                 </div>
               </div>
             </div>
+            <section id='visit'></section>
             <div id='showroom' className='info'>
               <h3>Visit A Showroom</h3>
               <p>After you’ve browsed through our online gallery, come visit one of our showrooms for more inspiration and design ideas</p>

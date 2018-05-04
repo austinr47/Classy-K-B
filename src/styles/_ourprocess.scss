@@ -1,4 +1,11 @@
 .process-main {
+
+  #visit {
+    margin-top: -80px;
+    position: relative;
+    margin-bottom: 80px;
+  }
+
   #first-pict {
     width:100%;
   }
@@ -124,6 +131,12 @@
 
 @media(min-width: 769px) {
   .process-main {
+    
+    #visit {
+      margin-top: -120px;
+      position: relative;
+      margin-bottom: 120px;
+    }
 
     h3 {
       font-size: 40px;
@@ -190,6 +203,7 @@
 
 @media(min-width: 1000px) {
   .process-main {
+
     #showroom {
       // margin-left: 80px;
       h3 {
