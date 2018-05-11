@@ -62,7 +62,8 @@ class Landing extends Component {
           <div className='landing-slider'>
             <div >Life. Organized.<span>®</span></div>
             <img className={this.state.animationCSS} width="1000" height="664" alt='slider' src={this.state.pict[this.state.sliderStart]}/> 
-            <span>Custom kitchen and bath solutions that fit your home, style and budget!</span>
+            <span>Custom European and Traditional Cabinetry Designed and Built by Classy Kitchen and Bath in Chandler, Arizona</span>
+            {/* <span>Custom kitchen and bath solutions that fit your home, style and budget!</span> */}
           </div>
           <div className='landing-button-2'>
             <span onClick={this.showSched}>

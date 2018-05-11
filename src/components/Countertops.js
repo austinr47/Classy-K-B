@@ -79,10 +79,10 @@ class Countertops extends Component {
                     <img alt={this.state.granite.name} src={this.state.granite.photo} />
                     </NavLink>
                   </div>
-                  <p id='parag'>&nbsp; &nbsp; {this.state.granite.description1}</p>
-                  <p id='mobile-p'>&nbsp; &nbsp; {this.state.granite.description2}</p>
-                  <p id='mobile-p'>&nbsp; &nbsp; {this.state.granite.description3}</p>
-                  <p id='mobile-p'>&nbsp; &nbsp; {this.state.granite.description4}</p>
+                  <p id='parag'>{this.state.granite.description1}</p>
+                  <p id='mobile-p'>{this.state.granite.description2}</p>
+                  <p id='mobile-p'>{this.state.granite.description3}</p>
+                  <p id='mobile-p'>{this.state.granite.description4}</p>
                 </div>
                 {/* <div id='desktop-p' className='counter-name'>
                   <p>&nbsp; &nbsp; {this.state.granite.description2}</p>
@@ -98,8 +98,8 @@ class Countertops extends Component {
                   <div><NavLink to={`/quartz`}>
                     <img alt={this.state.quartz.name} src={this.state.quartz.photo} /></NavLink>
                   </div>
-                  <p id='parag'>&nbsp; &nbsp; {this.state.quartz.description1}</p>
-                  <p id='mobile-p'>&nbsp; &nbsp; {this.state.quartz.description2}</p>
+                  <p id='parag'>{this.state.quartz.description1}</p>
+                  <p id='mobile-p'>{this.state.quartz.description2}</p>
                   <ul id='mobile-p'>
                     <li>{this.state.quartz.description3}</li>
                     <li>{this.state.quartz.description4}</li>
@@ -107,7 +107,7 @@ class Countertops extends Component {
                     <li>{this.state.quartz.description6}</li>
                     <li>{this.state.quartz.description7}</li>
                   </ul>
-                  <p id='mobile-p'>&nbsp; &nbsp; {this.state.quartz.description8}</p>
+                  <p id='mobile-p'>{this.state.quartz.description8}</p>
                   <button id='quartz-button'><NavLink className='link' to={`/quartz`}>View Our Quartz Products!</NavLink></button>
                 </div>
                 {/* <div id='desktop-p' className='counter-name'>
@@ -119,7 +119,7 @@ class Countertops extends Component {
                     <li>{this.state.quartz.description6}</li>
                     <li>{this.state.quartz.description7}</li>
                   </ul>
-                  <p>&nbsp; &nbsp; {this.state.quartz.description8}</p>
+                  <p>{this.state.quartz.description8}</p>
                   <p><NavLink to={`/quartz`}>View Our Quartz Products!</NavLink></p>
                 </div> */}
               </div>
@@ -131,11 +131,11 @@ class Countertops extends Component {
                   <div><NavLink to={`/countertops`}>
                     <img alt={this.state.marble.name} src={this.state.marble.photo} /></NavLink>
                   </div>
-                  <p id='parag'>&nbsp; &nbsp; {this.state.marble.description1}</p>
-                  <p id='mobile-p'>&nbsp; &nbsp; {this.state.marble.description2}</p>
-                  <p id='mobile-p'>&nbsp; &nbsp; {this.state.marble.description3}</p>
-                  <p id='mobile-p'>&nbsp; &nbsp; {this.state.marble.description4}</p>
-                  <p id='mobile-p'>&nbsp; &nbsp; {this.state.marble.description5}</p>
+                  <p id='parag'>{this.state.marble.description1}</p>
+                  <p id='mobile-p'>{this.state.marble.description2}</p>
+                  <p id='mobile-p'>{this.state.marble.description3}</p>
+                  <p id='mobile-p'>{this.state.marble.description4}</p>
+                  <p id='mobile-p'>{this.state.marble.description5}</p>
                 </div>
                 {/* <div id='desktop-p' className='counter-name'>
                   <p>&nbsp; &nbsp; {this.state.marble.description2}</p>

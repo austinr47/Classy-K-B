@@ -47,7 +47,7 @@
         opacity: .8;
         top: 3%;
         text-align: center;
-        font-size: 9px;
+        font-size: 8px;
         text-shadow: 1px 1px black;
         width: 100%;
         // display: none;
@@ -165,7 +165,7 @@
     .landing-content {
       .landing-slider {
         >span {
-          font-size: 11px;
+          // font-size: 11px;
         }
       }
     }
@@ -177,7 +177,7 @@
     .landing-content {
       .landing-slider {
         >span {
-          font-size: 15px;
+          font-size: 11px;
         }
       }
     }
@@ -309,7 +309,7 @@
 
         > span {
           display: inline-block;
-          font-size: 18px;
+          font-size: 15px;
         }
         
         > div {
@@ -368,7 +368,7 @@
 
         > span {
           top: 5%;
-          font-size: 25px;
+          font-size: 18px;
         }
         
         > div {
@@ -439,5 +439,17 @@
         }
       }
     } 
+  }
+}
+
+@media(min-width: 1050px) {
+  .landing-main {
+    .landing-content {
+      .landing-slider {
+        >span {
+          font-size: 21px;
+        }
+      }
+    }
   }
 }
