@@ -21,7 +21,7 @@ module.exports = {
 
     let HelperOptions = {
       from: '"Classy Kitchen & Bath" <confirmations@classyclosets.com>',
-      to: email,
+      to: `${process.env.REACT_APP_GMAIL_SEND_TO}`,
       subject: 'Test email sent',
       html:
     `<div>Name: ${first} ${last} <br/> Email: ${email} <br/> Phone: ${phone} <br/> Address: ${address} ${city} ${state} ${zip} <br/> Best Day to Contact: ${day} <br/> Best Time to Contact: <br/> &nbsp; &nbsp; From: ${startTime} To: ${endTime} <br/> Interested In: ${interestedIn} <br/> Comments: ${comments} </div>`
